@@ -4,21 +4,33 @@ body {
   font-family: "Yanone Kaffeesatz";
 }
 h1 {
-  margin-top: 0;
+  color: #66BFBF;
+  font-size: 5.24rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
   font-family: "Sacramento";
 }
 
 h2 {
+  color: #66BFBF;
+  font-weight: normal;
+  font-size: 2rem;
   font-family: "Montserrat";
 }
 
 h3 {
+  color: #11999E;
   font-family: "Montserrat";
 }
 .top-container {
   background-color: #F2E5E5;
   position: relative;
   padding-top: 100px;
+}
+
+.mountain {
+  position:relative;
+  top: 128px;
 }
 
 .top-cloud {
@@ -30,19 +42,39 @@ h3 {
 .bottom-cloud {
   position: absolute;
   left: 300px;
-  bottom: 300px;
+  bottom: 400px;
 }
 
-.middle {
-  background-color: red;
-  height: 200px;
-  width: 200px;
+.stars {
+  position: absolute;
+  right: 360px;
+  bottom: 220px;
 }
 
-.bottom {
-  background-color: purple;
-  height: 200px;
-  width: 200px;
+.skill-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.puzzle-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.middle-container {
+
+}
+
+.bottom-container {
+
 }
 
 .addon {
